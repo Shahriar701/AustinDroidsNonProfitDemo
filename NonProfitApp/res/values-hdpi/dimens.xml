@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- hdpi dimens -->
+
+    <dimen name="pw4dp">4dp</dimen>
+    
+    <dimen name="pw24sp">24sp</dimen>
+    <dimen name="pw32sp">32sp</dimen>
+    <dimen name="pw40sp">40sp</dimen>
+    <dimen name="pw48sp">48sp</dimen>
+    
+
+</resources>
+

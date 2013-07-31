@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Meals On Wheels</string>
+    <string name="meals">Meals On</string>
+    <string name="on">On</string>
+    <string name="wheels">Wheels</string>
+    <string name="blank"></string>
+</resources>

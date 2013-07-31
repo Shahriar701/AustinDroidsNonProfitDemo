@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mw_actionbar_active">#0E2B8D</color>
+    <color name="mw_lightblue">#4088EB</color>
+    <color name="mw_actionbar">#062752</color>
+    
+    <!-- 
+    from website css 
+    color:#64696E
+color:#062752
+color:#4088EB
+color:#1B559E
+color:#6C983A
+color:#0E2B8D
+color:#0E2C8E
+color:#e9e9e9
+color:#d3eaff
+color:#fbb
+color:#09264E
+color:#CCDFFF
+color:#C5DDFF
+color:#C5DFFF
+color:#c5ddff
+color:#0082BB
+     -->
+</resources>
