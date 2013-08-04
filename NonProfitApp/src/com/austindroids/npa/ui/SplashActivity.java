@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.austindroids.npa.AppConfig;
 import com.austindroids.npa.utils.RobotoTypeface;
-import com.mowaa.mealsonwheels.R;
+import com.austindroids.npa.R;
 
 public class SplashActivity extends Activity {
 

@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.mowaa.mealsonwheels.R;
+import com.austindroids.npa.R;
 
 public class BaseActivity extends Activity {
 
