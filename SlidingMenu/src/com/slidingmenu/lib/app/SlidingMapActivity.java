@@ -12,6 +12,8 @@ public abstract class SlidingMapActivity extends MapActivity implements SlidingA
 
 	private SlidingActivityHelper mHelper;
 
+
+
 	/* (non-Javadoc)
 	 * @see com.google.android.maps.MapActivity#onCreate(android.os.Bundle)
 	 */
@@ -20,6 +22,8 @@ public abstract class SlidingMapActivity extends MapActivity implements SlidingA
 		super.onCreate(savedInstanceState);
 		mHelper = new SlidingActivityHelper(this);
 		mHelper.onCreate(savedInstanceState);
+
+        //For git push test-dan bryant
 	}
 
 	/* (non-Javadoc)
