@@ -11,8 +11,11 @@ bin/
 gen/
 # Local configuration file (sdk path, etc)
 local.properties
-# Eclipse project files
-.classpath
-.project
+
+# Eclipse folders
 /.ws_ausdro/
 /clutter/
+
+# Local Android Studio configs
+.idea/workspace.xml
+.idea/tasks.xml
