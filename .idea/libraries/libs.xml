@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/NonProfitApp/libs/android-query.0.25.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NonProfitApp/libs/gson-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/NonProfitApp/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

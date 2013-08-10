@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/firstName"
+              android:text="firstName"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:layout_alignParentTop="true"
+              android:textStyle="bold"
+              android:textSize="22dp"
+              android:textColor="#000000"
+              android:layout_marginTop="5dp"
+            >
+
+    </TextView>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/lastName"
+              android:text="lastName"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:textStyle="bold"
+              android:textSize="22dp"
+              android:textColor="#000000"
+              android:layout_alignTop="@+id/firstName"
+              android:layout_centerHorizontal="true"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/address"
+              android:text="address"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:textStyle="bold"
+              android:textSize="18dp"
+              android:textColor="#666666"
+              android:layout_below="@+id/firstName"
+              android:layout_marginTop="11dp"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/city"
+              android:text="city"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:textStyle="bold"
+              android:textSize="18dp"
+              android:textColor="#666666"
+              android:layout_below="@+id/address"
+              android:layout_alignLeft="@+id/address"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/state"
+              android:text="state"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:textStyle="bold"
+              android:textSize="18dp"
+              android:textColor="#666666"
+              android:layout_below="@+id/address"
+              android:layout_alignLeft="@+id/lastName"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/zip"
+              android:text="zip"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:textStyle="bold"
+              android:textSize="18dp"
+              android:textColor="#666666"
+              android:layout_alignTop="@+id/state"
+              android:layout_toRightOf="@+id/lastName"/>
+
+</RelativeLayout>
